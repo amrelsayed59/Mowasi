@@ -1,0 +1,47 @@
+/*
+@import url("reset.css");
+
+*/
+
+#editor {
+    width: 100%;
+    padding: 7px 20px 20px 20px;
+    border-radius: 10px;
+    background: #f2f2f2;
+}
+
+#toolbar {
+    margin-left: -20px;
+    margin-right: -20px;
+    border-bottom: 1px solid #dcdcdc;
+    padding: 8px 20px;
+    overflow: hidden;
+}
+
+#page {
+    padding: 10px;
+    min-height: 600px;
+    outline: none;
+    background: #fff;
+}
+#page p{
+    color: #000;
+}
+
+.icon {
+    float: left;
+    height: 30px;
+    width: 40px;
+    margin-right: 10px;
+    background: #fafafa;
+    font-size: 0.8rem;
+    color: #464646;
+    text-align: center;
+    cursor: pointer;
+    line-height: 30px;
+}
+
+.icon:hover {
+  border-color: #3e7086;
+  color: #3e7086;
+}
